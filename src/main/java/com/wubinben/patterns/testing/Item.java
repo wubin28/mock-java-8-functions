@@ -1,7 +1,13 @@
 package com.wubinben.patterns.testing;
 
 public class Item {
+    private String name;
+
+    public Item(String name) {
+        this.name = name;
+    }
+
     public String getName() {
-        return null;
+        return this.name;
     }
 }
