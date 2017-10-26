@@ -18,7 +18,7 @@ public class AppTest {
 
         app.convert(items, mockConsumer);
 
-        verify(mockConsumer).accept(any());
+        verify(mockConsumer).accept(eq(item));
     }
 
     @Test
